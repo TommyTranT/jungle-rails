@@ -1,3 +1,5 @@
+<%# Kind of like an "one and done" layout so we dont need to repeat html over and over again %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,12 +13,15 @@
 </head>
 <body>
 
+  <%# Renders the nav bar  %>
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
     <%= yield %>
   </main>
 
+  <%# this is where "show" is being rendered %>
+  <%# we can pretend all of the code from show goes here %>
   <%= yield :end_of_body %>
 
   <footer class="py-3 my-4">
@@ -25,7 +30,7 @@
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Help</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
     </ul>
-    <p class="text-center text-muted">© 2021 Jungle, Inc</p>
+    <p class="text-center text-muted">© 2022 Jungle, Inc</p>
   </footer>
 </body>
 </html>

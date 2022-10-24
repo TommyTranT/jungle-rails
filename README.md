@@ -29,3 +29,13 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Admin Login
+
+When accessing admin pages, please use the username and password:
+- username: "Jungle"
+- password: "book"
+
+https://app.diagrams.net/#G1MGVJK1jbTe-99CLzwJyime-jTDLn6nsx
+
+https://web.compass.lighthouselabs.ca/b3c007bc-3497-4080-9321-9fd817cc605b

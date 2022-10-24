@@ -8,6 +8,13 @@
     <h4>Thank you for your order!</h4>
   </div>
 
-  <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
+  <% line_items = LineItem.where(order_id: @order.id) %>
+    <% line_items.each do |line_item| %>
+      <%# Renders orders/_items page %>
+      <%= render 'item', product_id: line_item.product_id, line_total: line_item.total_price %>
+    <% end %>
 
+  <p>Your order total is: <%= @order.total %></p>
+  <p>A confirmation email has been sent to: <%= @order.email %></p>
+  
 </section>
