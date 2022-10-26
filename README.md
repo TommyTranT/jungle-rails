@@ -36,6 +36,18 @@ When accessing admin pages, please use the username and password:
 - username: "Jungle"
 - password: "book"
 
-https://app.diagrams.net/#G1MGVJK1jbTe-99CLzwJyime-jTDLn6nsx
+## Screenshots
 
-https://web.compass.lighthouselabs.ca/b3c007bc-3497-4080-9321-9fd817cc605b
+![img1](https://github.com/haitran1995/jungle-rails/blob/master/public/images/Screen%20Shot%202022-10-26%20at%205.57.45%20PM.png?raw=true)
+
+![img2](https://github.com/haitran1995/jungle-rails/blob/master/public/images/Screen%20Shot%202022-10-26%20at%205.57.57%20PM.png?raw=true)
+
+![img3](https://github.com/haitran1995/jungle-rails/blob/master/public/images/Screen%20Shot%202022-10-26%20at%205.58.17%20PM.png?raw=true)
+
+![img4](https://github.com/haitran1995/jungle-rails/blob/master/public/images/Screen%20Shot%202022-10-26%20at%205.58.51%20PM.png?raw=true)
+
+![img5](https://github.com/haitran1995/jungle-rails/blob/master/public/images/Screen%20Shot%202022-10-26%20at%205.59.34%20PM.png?raw=true)
+
+
+
+
