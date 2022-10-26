@@ -1,8 +1,8 @@
 class Admin::ProductsController < ApplicationController
 
   http_basic_authenticate_with name: "Jungle", password: "book"
-  # Returns error = "undefined method 'bytesize' for nil:NilClass"
   # http_basic_authenticate_with name: ENV['ADMIN_NAME'], password: ENV['ADMIN_PASSWORD']
+  # Returns error = "undefined method 'bytesize' for nil:NilClass"
 
   def index
     @products = Product.order(id: :desc).all
