@@ -18,8 +18,16 @@ Rails.application.routes.draw do
     resources :categories, except: [:edit, :update, :show]
   end
 
-  # Route for about page
+    # Route for about page
   get "about", to: "about#index"
+
+  # these routes are for showing users a login form, logging them in, and logging them out.
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'users#new'
+  post '/users' => 'users#create'
 
 
 
